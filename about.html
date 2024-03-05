@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            DarkCyan: '#0E8784',
+            DarkGreyBlue: '#333D4B',
+            PaleOrange: '#FDD6BA',
+            LightBackgound: '#FEFCF7',
+            Grey: '#83888F',
+            lightGray: '#FFFFFF',
+            
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-LightBackgound font-['Fraunces']">
+  <nav class="bg-white">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://i.postimg.cc/kG7N0XhX/Combined-Shape.png/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="https://i.postimg.cc/kG7N0XhX/Combined-Shape.png" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-Deca whitespace-nowrap dark:text-DarkGreyBlue">coffeeroasters</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-Deca flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <li>
+            <a href="index.html" class="block py-2 px-3 text-Grey-900 rounded md:p-0" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="block py-2 px-3 text-Grey-900 rounded  md:border-0  md:p-0 dark:text-Grey">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-Grey-900 rounded  md:border-0 md:p-0 dark:text-Grey">Create your plan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+
+  <section class="mt-6">
+    <div class="bg-cover bg-no-repeat bg-center bg-[url('https://i.postimg.cc/zGnRw1fJ/Bitmap.png')] rounded-lg flex flex-col items-center justify-center py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-12">
+        <div class="">
+            <div class="flex-col md:flex-row md:items-center justify-center gap-20">
+              <div class="text-center md:text-left">
+                <h1 class="text-3xl lg:text-5xl xl:text-6xl lg:w-1/3  lg:text-8xl mb-3 leading-tight font-bold text-white">About Us</h1>
+                <p class="text-gray-200 text-base lg:text-lg lg:w-1/2 mb-10 md:mb-0">Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+  </section>
+ 
+  <section class="grid grid-cols-1 md:grid-cols-12 gap-4 py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-12">
+    <div class="col-span-full md:col-span-6 order-1 md:order-none lg:ml-12">
+      <img src="https://i.postimg.cc/W1DH812k/Bitmap-copy.png" alt="Your image description" class="w-3/3 h-auto rounded-lg object-cover">
+    </div>
+    <div class="col-span-full md:col-span-6 order-2 md:order-1 flex flex-col justify-center px-4">
+      <h1 class="text-3xl lg:text-5xl xl:text-5xl leading-tight text-left font-bold">Our commitment</h1>
+      <p class="text-gray-700 text-base lg:text-lg text-left mt-4 mb-8">We’re built on a simple mission and a commitment to doing good along the way. We want to make it easy for you to discover and brew the world’s best coffee at home. It all starts at the source. To locate the specific lots we want to purchase, we travel nearly 60 days a year trying to understand the challenges and opportunities in each of these places. We collaborate with exceptional coffee growers and empower a global community of farmers through with well above fair-trade benchmarks. We also offer training, support farm community initiatives, and invest in coffee plant science. Curating only the finest blends, we roast each lot to highlight tasting profiles distinctive to their native growing region.</p>
+    </div>
+  </section>
+  
+  <section class="bg-cover bg-no-repeat bg-center bg-[url('https://i.postimg.cc/j2252FfP/Bitmap-copy-3.png')] h-[500px] rounded-lg flex flex-row md:items-center justify-center py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-12 mt-36">
+    <div class="w-full md:w-1/2 order-1 px-4 flex flex-col justify-center text-white">
+      <h1 class="text-3xl lg:text-5xl xl:text-5xl leading-tight text-left font-bold">Uncompromising quality</h1>
+      <p class="text-gray-200 text-base lg:text-lg text-left mt-4 mb-8">Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.</p>
+    </div>
+    <div class="w-full md:w-1/2 order-2 remd:block">
+      <img src="https://i.postimg.cc/NjJdryZX/Bitmap-copy-2.png" alt="image" class="w-3/4 md:ml-14 md:mb-60 h-auto rounded-lg object-cover">
+    </div>
+  </section>
+  
+    <section class="mt-[10rem] px-4">
+        <h2 class="text-2xl text-[#83888F] font-bold text-center sm:text-3xl sm:text-start">Our headquarters</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="newcards rounded overflow-hidden  p-4 max-w-sm">
+            <img src="images/1.svg" alt="pic">
+            <div class="px-4 py-2">
+              <div class="font-bold text-xl mb-2 text-black">United Kingdom</div>
+              <p class="text-gray-700 text-xl w-full mt-3">
+                68 Ashfordby Rd, Alcaston, SY6 1YA<br>
+                +44 1241 918425
+              </p>
+            </div>
+          </div>
+      
+          <div class="newcards rounded overflow-hidden p-4 max-w-sm">
+            <img src="images/3.svg" alt="pic">
+            <div class="px-4 py-2">
+              <div class="font-bold text-xl mb-2 text-black">Canada</div>
+              <p class="text-gray-700 text-xl w-full mt-3">
+                68 Ashfordby Rd, Alcaston, SY6 1YA<br>
+                +44 1241 918425
+              </p>
+            </div>
+          </div>
+      
+          <div class="newcards rounded overflow-hidden p-4 max-w-sm">
+            <img src="images/2.svg" alt="pic">
+            <div class="px-4 py-2">
+              <div class="font-bold text-xl mb-2 text-black">Australia</div>
+              <p class="text-gray-700 text-xl w-full mt-3">
+                68 Ashfordby Rd, Alcaston, SY6 1YA<br>
+                +44 1241 918425
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <footer>
+      <div class="footer bg-[#2C343E] h-[300px] px-4 py-8 lg:h-[100px] lg:mt-[10rem]">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+          <div class="justify-center lg:justify-start">
+            <img class="w-full md:w-auto" src="https://i.postimg.cc/L4L13jbG/Group-5.png" alt="logo">
+          </div>
+          <div class="navlinks flex flex-col gap-2 text-white text-center lg:text-left lg:justify-start">
+            <ul class="flex lg:flex lg:flex-inline gap-5 justify-center">
+              <li class="hover:text-gray-200">Home</li>
+              <li class="hover:text-gray-200">About Us</li>
+              <li class="hover:text-gray-200">Create Your Plan</li>
+            </ul>
+          </div>
+          <div class="flex justify-center lg:justify-end">
+            <i class="fa-brands fa-facebook text-2xl text-white hover:text-gray-200"></i>
+            <i class="fa-brands fa-instagram text-2xl text-white ml-4 hover:text-gray-200"></i>
+            <i class="fa-brands fa-twitter text-2xl text-white ml-4 hover:text-gray-200"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+  
+  
+  </body>
+</html>

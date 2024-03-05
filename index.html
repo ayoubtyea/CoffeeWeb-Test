@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            DarkCyan: '#0E8784',
+            DarkGreyBlue: '#333D4B',
+            PaleOrange: '#FDD6BA',
+            LightBackgound: '#FEFCF7',
+            Grey: '#83888F',
+            lightGray: '#FFFFFF',
+            
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-LightBackgound font-['Fraunces']">
+  <nav class="bg-white">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://i.postimg.cc/kG7N0XhX/Combined-Shape.png/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="https://i.postimg.cc/kG7N0XhX/Combined-Shape.png" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-Deca whitespace-nowrap dark:text-DarkGreyBlue">coffeeroasters</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-Deca flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <li>
+            <a href="#" class="block py-2 px-3 text-Grey-900 rounded md:p-0" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="block py-2 px-3 text-Grey-900 rounded  md:border-0  md:p-0 dark:text-Grey">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-Grey-900 rounded  md:border-0 md:p-0 dark:text-Grey">Create your plan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <section class="bg-center overflow-hidden bg-no-repeat bg-[url('https://i.postimg.cc/zGnRw1fJ/Bitmap.png')] rounded-lg  bg-blend-multiply">
+    <div class="container mx-auto py-16 px-4 md:py-32 md:px-8 lg:py-48 lg:px-12">
+      <div class="flex-col md:flex-row md:items-center justify-center gap-20">
+        <div class="text-center md:text-left">
+          <h1 class="text-3xl lg:text-5xl xl:text-6xl lg:w-1/3  lg:text-8xl mb-3 leading-tight font-bold text-white">Create coffee made simple.</h1>
+          <p class="text-gray-200 text-base lg:text-lg lg:w-1/2 mb-10 md:mb-0">Start your mornings with the world's best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+        </div>
+        <div class="flex justify-center sm:justify-start mt-3">
+          <button class="bg-[#0E8784] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded sm:px-2 md:px-4 lg:px-6">Create Your Plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+    
+  
+  <!-- <section class="text-gray-900 text-fontDeca p-3">
+     <div class="container">
+      <div class="md:grid md:grid-cols-1 flex flex-wrap -mx-4">
+          <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+          <a href="" class="c-card block rounded-lg">
+          <div class="relative pb-48">
+            <img class="absolute inset-0 h-full w-full object-cover" src="https://i.postimg.cc/xjpqQ1pM/kopi1-copy.png" alt="">
+          </div>
+          <div class="p-4 text-center">
+            <h2 class="mt-6 mb-2  font-bold">Gran Espresso</h2>
+            
+            <div class="mt-12 flex items-center">
+              <p class="text-base">Light and flavorful blend with cocoa and black pepper for an intense</p>
+            </div>
+          </div>
+        </a>
+        </div>
+              <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+          <a href="" class="c-card block rounded-lg">
+          <div class="relative pb-48">
+            <img class="absolute inset-0 h-full w-full object-cover" src="https://i.postimg.cc/xjpqQ1pM/kopi1-copy.png" alt="">
+          </div>
+          <div class="p-4 text-center">
+            <h2 class="mt-6 mb-2  font-bold">Planalto</h2>
+            
+            <div class="mt-12 flex items-center">
+              <p class="text-base">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+            </div>
+          </div>
+        </a>
+        </div>
+               <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+                <a href="" class="c-card block rounded-lg">
+                <div class="relative pb-48">
+                  <img class="absolute inset-0 h-full w-full object-cover" src="https://i.postimg.cc/xjpqQ1pM/kopi1-copy.png" alt="">
+                </div>
+                <div class="p-4 text-center">
+                  <h2 class="mt-6 mb-2  font-bold">Piccollo</h2>
+  
+                  <div class="mt-12 flex items-center">
+                    <p class="text-base">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+                  </div>
+                </div>
+              </a>
+              </div>
+               <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+                <a href="" class="c-card block rounded-lg">
+                <div class="relative pb-48">
+                  <img class="absolute inset-0 h-full w-full object-cover" src="https://i.postimg.cc/xjpqQ1pM/kopi1-copy.png" alt="">
+                </div>
+                <div class="p-4 text-center">
+                  <h2 class="mt-6 mb-2  font-bold">Danche</h2>
+  
+                  <div class="mt-12 flex items-center">
+                    <p class="text-base">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+                  </div>
+                </div>
+              </a>
+              </div>
+           
+            
+      </div>
+    </div>
+  </section> -->
+  <section class="text-black py-12 px-4">
+    <div class="container mx-auto grid lg:grid-cols-4 gap-4">
+      <div class="p-4 text-center">
+        <img src="images/kopi1 copy.png" alt="Image description" class="rounded-lg mx-auto w-full">
+        <h1 class="text-3xl font-bold my-4">Gran Espresso</h1>
+        <p class="text-lg leading-loose">
+          Light and flavorful blend with cocoa and black pepper for an intense experience
+        </p>
+      </div>
+      <div class="p-4 text-center">
+        <img src="images/kopi1 copy.png" alt="Image description" class="rounded-lg mx-auto w-full">
+        <h1 class="text-3xl font-bold my-4">Planalto</h1>
+        <p class="text-lg leading-loose">
+          Light and flavorful blend with cocoa and black pepper for an intense experience
+        </p>
+      </div>
+      <div class="p-4 text-center">
+        <img src="images/kopi1 copy.png" alt="Image description" class="rounded-lg mx-auto w-full">
+        <h1 class="text-3xl font-bold my-4">Piccollo</h1>
+        <p class="text-lg leading-loose">
+          Light and flavorful blend with cocoa and black pepper for an intense experience
+        </p>
+      </div>
+      <div class="p-4 text-center">
+        <img src="images/kopi1 copy.png" alt="Image description" class="rounded-lg mx-auto w-full">
+        <h1 class="text-3xl font-bold my-4">Danche</h1>
+        <p class="text-lg leading-loose">
+          Light and flavorful blend with cocoa and black pepper for an intense experience
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section class="bg-[#2C343E] w-full rounded-lg shadow-lg text-white px-4 py-8">
+    <h1 class="mt-6 text-2xl text-center">Why Choose Us?</h1>
+    <p class="mt-6 text-center text-sm">A large part of our role is choosing which particular coffees will be featured 
+      in our range. This means working closely with the best coffee growers to give 
+      you a more impactful experience on every level.</p>
+  
+    <div class="grid grid-cols-1 md:grid-cols-3  gap-4 mt-8 ">
+      <div class="bg-[#0E8784] rounded overflow-hidden text-center">
+        <img class="mx-auto h-18 object-cover mt-8" src="https://i.postimg.cc/J405szNY/Shape.png" alt="Image description">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Best Quality</div>
+          <p class="text-gray-700 text-base">
+            Discover an endless variety of the world’s best artisan coffee from each of our roasters.
+          </p>
+        </div>
+      </div>
+      
+      <div class="bg-[#0E8784] rounded overflow-hidden text-center">
+        <img class="mx-auto h-18 object-cover mt-8" src="https://i.postimg.cc/kGXmKpqC/Combined-Shape-copy.png" alt="Image description">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Exclusive benefits</div>
+          <p class="text-gray-700 text-base">
+            Special offers and swag when you subscribe, including 30% off your first shipment.
+          </p>
+        </div>
+      </div>
+      
+      <div class="bg-[#0E8784] rounded overflow-hidden text-center">
+        <img class="mx-auto h-18 object-cover mt-8" src="https://i.postimg.cc/SsG4Xh0V/Combined-Shape-1.png" alt="Image description">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Free Shipping</div>
+          <p class="text-gray-700 text-base">
+            We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+    <section class="mt-[10rem]">
+      <div class="paraghrapgh text-center">
+        <h1>How it Works</h1>
+      </div>
+      <div class="sm:grid sm:grid-cols-3 justify-items-center">
+
+   
+      <div class="newcards mt-[5rem]">
+        <div class="max-w-sm rounded overflow-hidden  text-center">
+          <span class="text-6xl text-[#FDD6BA] font-bold">01</span>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-black">Pick your coffee</div>
+            <p class="text-gray-700 text-base text-gray mt-3">
+              Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="newcards mt-[5rem]">
+        <div class="max-w-sm rounded overflow-hidden  text-center">
+          <span class="text-6xl text-[#FDD6BA] font-bold">02</span>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-black">Choose the frequency</div>
+            <p class="text-gray-700 text-base text-gray mt-3">
+              Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="newcards mt-[5rem]">
+        <div class="max-w-sm rounded overflow-hidden  text-center">
+          <span class="text-6xl text-[#FDD6BA] font-bold">03</span>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-black">Receive and enjoy!</div>
+            <p class="text-gray-700 text-base text-gray mt-3">
+              We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
+              world-class coffees curated to provide a distinct tasting experience.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      </div>
+      
+      <div class="button text-center mt-4 mb-5">
+        <button class="bg-DarkCyan w-[10rem] rounded text-white px-4 py-3">Create Your Plan</button>
+      </div>
+      
+  
+    </section>
+  
+    <footer>
+      <div class="footer bg-[#2C343E] h-[300px] px-4 py-8 lg:h-[100px] lg:mt-[10rem]">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+          <div class="justify-center lg:justify-start">
+            <img class="w-full md:w-auto" src="https://i.postimg.cc/L4L13jbG/Group-5.png" alt="logo">
+          </div>
+          <div class="navlinks flex flex-col gap-2 text-white text-center lg:text-left lg:justify-start">
+            <ul class="flex lg:flex lg:flex-inline gap-5 justify-center">
+              <li class="hover:text-gray-200">Home</li>
+              <li class="hover:text-gray-200">About Us</li>
+              <li class="hover:text-gray-200">Create Your Plan</li>
+            </ul>
+          </div>
+          <div class="flex justify-center lg:justify-end">
+            <i class="fa-brands fa-facebook text-2xl text-white hover:text-gray-200"></i>
+            <i class="fa-brands fa-instagram text-2xl text-white ml-4 hover:text-gray-200"></i>
+            <i class="fa-brands fa-twitter text-2xl text-white ml-4 hover:text-gray-200"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+  
+  
+  </body>
+</html>
